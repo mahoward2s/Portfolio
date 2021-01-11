@@ -1,9 +1,7 @@
  /*Background Color of the Body*/
-body {
-    background-color: #cccccc
-}
+ body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+  }
 
-/*Fontweight*/
-p, ul, il {
-   font-weight: bold;
-}
