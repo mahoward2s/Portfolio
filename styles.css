@@ -1,11 +1,6 @@
-/*Background Color of Header1*/
-h1 {
-    background-color: plum;
-}
-
  /*Background Color of the Body*/
 body {
-    background-color: aquamarine
+    background-color: #cccccc
 }
 
 /*Fontweight*/
