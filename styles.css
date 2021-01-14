@@ -5,6 +5,7 @@ body {
   }
   
   .code-image {
+    /*credit for image: unsplash.com@cgower */
     background-image: url("./assets/images/IMG_Coding.JPG");
     background-color: #cccccc;
     height: 500px;
@@ -30,4 +31,8 @@ body {
 
   .card-title {
     font-weight: bold;
+  }
+
+  #Footer {
+    padding-top: 1px;
   }
