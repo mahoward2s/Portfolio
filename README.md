@@ -13,7 +13,9 @@ https://mahoward2s.github.io/Portfolio/
 
 ## Description:
 ```
--A professional portfolio highlighting different projects completed by myself and collaborators.  Provides information about myself and links to social media.  The website also allows for multiple contacts with links to profiles, resumes, email, and phone number.
+-A professional portfolio highlighting different projects completed by myself and collaborators.  
+-Provides information about myself and links to social media.  
+-The website also allows for multiple contacts with links to profiles, resumes, email, and phone number.
 ```
 ## What To Expect:
 ![Portfolio](./assets/images/Home.gif)
