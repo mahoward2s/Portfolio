@@ -1,44 +1,56 @@
 # Portfolio
 
-## Link:  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-https://mahoward2s.github.io/Portfolio/
+## Table of Contents
+- [Description](#description)
+- [What To Expect](#what-to-expect)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credit](#credit)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## Technologies:
-```
--Bootstrap
--HTML
--CSS
-```
-
-## Description:
-```
--A professional portfolio highlighting different projects completed by myself and collaborators.  
--Provides information about myself and links to social media.  
--The website also allows for multiple contacts with links to profiles, resumes, email, and phone number.
-```
 ## What To Expect:
 ![Portfolio](./assets/images/Home.gif)
 
+## Description:
+- A professional portfolio highlighting different projects completed by myself and collaborators.  
+- Provides information about myself and links to social media.  
+- The website also allows for multiple contacts with links to profiles, resumes, email, and phone number.
+
+## Installation
+- Link to Repo:
+https://github.com/mahoward2s/Portfolio
+
+- Linke to Launched App:
+https://mahoward2s.github.io/Portfolio/
+
+## Usage 
+N/A
+
 ## License: 
-```
--MIT
-```
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Credit:
-```
--Contact Photo: unsplash.com@ptrikutam
--Landing Page Photo: unsplash.com@cgower
-```
+- Contact Photo: unsplash.com@ptrikutam
+- Landing Page Photo: unsplash.com@cgower
 
-## Contact:
-```
--Collaborators on Covid Is No Joke:
-    -https://github.com/Msas12
-    -https://github.com/kmsaunders7
+## Contributing
+Feel free to fork and improve!
 
--Matt Howard: mahoward2s@gmail.com
-```
+## Tests
+N/A
+
+## Questions
+- Collaborators on Covid Is No Joke:
+    - https://github.com/Msas12
+    - https://github.com/kmsaunders7
+
+- Mahoward2s: https://github.com/mahoward2s
+- mahoward2s@gmail.com
 
 
 <!--   
