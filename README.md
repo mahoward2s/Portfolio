@@ -25,7 +25,7 @@
 - Link to Repo:
 https://github.com/mahoward2s/Portfolio
 
-- Linke to Launched App:
+- Link to Launched App:
 https://mahoward2s.github.io/Portfolio/
 
 ## Usage 
@@ -46,6 +46,10 @@ N/A
 
 ## Questions
 - Collaborators on Covid Is No Joke:
+    - https://github.com/Msas12
+    - https://github.com/kmsaunders7
+
+- Collaborators on Adopt Don't Shop:
     - https://github.com/Msas12
     - https://github.com/kmsaunders7
 
