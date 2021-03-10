@@ -2,192 +2,84 @@
 <html lang="en-us">
 
 <head>
-  <title>Projects</title>
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <!--CSS-->
-  <link rel="stylesheet" href="styles.css">
+    <title>Websites</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-  <!--NavBar-->
-  <nav class="navbar sticky-top navbar-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Matthew Howard</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!--Alignment of Page-->
-  <div class="container">
-    <!--____________________________________________________PROJETS___________________________-->
-    <div class="row justify-content-center">
-      <h1 class="display-4">Projects</h1>
-    </div>
-
-    <!--Covid Is No Joke-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/covid.gif" class="card-img-top" alt="Usage of Covid Is No Joke GIF">
-        <div class="card-body">
-          <h5 class="card-title">Covid Is No Joke</h5>
-          <p class="card-text">Application to provide up to date Covid numbers and jokes of the day. You are able to
-            able to search different states in the United States. These searches are saved to local storage and update
-            daily. You can also get daily jokes to lighten the mood and your day. Worked with Msas12 and Kmsaunders7 to
-            create this application.</p>
-          <a href="https://msas12.github.io/COVID-Is-No-Joke-/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/Msas12/COVID-Is-No-Joke-" class="btn btn-info">Github</a>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Matthew Howard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="projects.html">Collaborations</a>
+                        <a class="dropdown-item" href="applications.html">Applications</a>
+                        <a class="dropdown-item" href="websites.html">Websites<span class="sr-only">(current)</span></a>
+                        <a class="dropdown-item" href="personalProjects.html">Personal Projects</a>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </div>
+    </nav>
 
-    <!--Adopt Dont Shop-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/DOGS!.gif" class="card-img-top" alt="Usage of Adopt Don't Shop GIF">
-        <div class="card-body">
-          <h5 class="card-title">Adopt Don't Shop</h5>
-          <p class="card-text">Adopt Don't Shop is a dog adoption agency website.  Allows users to view available dogs to adopt, including pictures using multer.  Included is a success story page, where users can write about a happy adoption story.  When admin logs into the website/app they have the opportunity to upload images of available dogs and provde information about them before the dogs get posted for everyone to see and adopt.  There are a lot of things that we would like to incorporate going forward.</p>
-          <a href="https://project2msksmh.herokuapp.com/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/Msas12/Project-2" class="btn btn-info">Github</a>
+    <!--Alignment of Page-->
+    <div class="container">
+        <!--_________________________________________________________WEBSITES___________________________-->
+        <div class="row justify-content-center">
+            <h1 class="display-4">Websites</h1>
         </div>
-      </div>
-    </div>
 
-    <!--_____________________________________________________Applications___________________________-->
-    <div class="row justify-content-center">
-      <h1 class="display-4">Applications</h1>
-    </div>
-
-    <!--Burger App-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/Matts_Burgers.gif" class="card-img-top" alt="Usage of Matts Burgers App GIF">
-        <div class="card-body">
-          <h5 class="card-title">Matt's Burgers</h5>
-          <p class="card-text">Application to provide users the opportunity to either track the burger of the day or
-            burgers that they would like to eat. They have the opportunity to add burgers, devour burgers, make them
-            available, and delete them.</p>
-          <a href="https://limitless-eyrie-37289.herokuapp.com/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/mahoward2s/Burger" class="btn btn-info">Github</a>
+        <!--Code Refractor-->
+        <div class="row justify-content-center">
+            <div class="card text-center mb-3" style="width: 40rem;">
+                <img src="./assets/images/Horiseon Social Solutions.gif" class="card-img-top"
+                    alt="Usage of Code Refractor GIF">
+                <div class="card-body">
+                    <h5 class="card-title">Code Refractor</h5>
+                    <p class="card-text">This project a client came to me with a website design. I had to connect the
+                        images and
+                        fix the layout of the website. I linked the navbar with the appropriate section in the website.
+                    </p>
+                    <a href="https://mahoward2s.github.io/Code-Refractor/" class="btn btn-primary">Launch</a>
+                    <a href="https://github.com/mahoward2s/Code-Refractor" class="btn btn-info">Github</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!--Timed Quiz-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/Matt's Quiz.gif" class="card-img-top" alt="Usage of Timed Quiz GIF">
-        <div class="card-body">
-          <h5 class="card-title">Matt's Quiz</h5>
-          <p class="card-text">This is a study tool for users to test their knowledge of JavaScript. It is a timed quiz
-            that provides multiple questions and if they answer correctly it will go to the next question. If a user
-            answers incorrectly there is a time penalty. Try it out and see if you can get the highest score or beat
-            your own personal best. High Score stores on local storage so the user can see who holds the highest score
-            or look at their own records.</p>
-          <a href="https://mahoward2s.github.io/Timed-Code-Quiz/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/mahoward2s/Timed-Code-Quiz" class="btn btn-info">Github</a>
-        </div>
-      </div>
-    </div>
+    <!-- Start Footer -->
+    <nav class="navbar fixed-bottom-sm footer justify-content-center bg-dark" id="Footer">
+        <div class="footer-text">Website By: Mahoward2s</div>
+      </nav>
 
-    <!--Five Day Forecast-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/5 Day Forecast.gif" class="card-img-top" alt="Usage of Five Day Forecast GIF">
-        <div class="card-body">
-          <h5 class="card-title">Five Day Forecast</h5>
-          <p class="card-text">This application allows a user to search cities around the world to see the current
-            weather. It also provides the customer with a 5 day forecast of the city. The city is stored on the local
-            storage to allow users to reselect the city they searched to get an updated forecast. Users are able to
-            clear out the entire search field. It provides wind, uv index, humidity, and temperature for the user.</p>
-          <a href="https://mahoward2s.github.io/Five-Day-Forecast/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/mahoward2s/Five-Day-Forecast" class="btn btn-info">Github</a>
-        </div>
-      </div>
-    </div>
-
-    <!--Daily Work Planner-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/My Planner App.gif" class="card-img-top" alt="Usage of Daily Work Planner GIF">
-        <div class="card-body">
-          <h5 class="card-title">Daily Work Planner</h5>
-          <p class="card-text">This applications provides the user with a a daily work planner. At the top of the
-            application it provides the user with the date and time. Users are able to add different meetings, lunch
-            dates, and other activities in their planner to keep track. As the day progresses the planner will turn gray
-            informing the customer it has passed, red is during the present and is occuring right now, and green are
-            future events still to come. Activities are stored on local storage.
-          </p>
-          <a href="https://mahoward2s.github.io/My-Daily-Work-Planner/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/mahoward2s/My-Daily-Work-Planner" class="btn btn-info">Github</a>
-        </div>
-      </div>
-    </div>
-
-    <!--Password Generator-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/Password Generator.gif" class="card-img-top" alt="Usage of Password Generator GIF">
-        <div class="card-body">
-          <h5 class="card-title">Password Generator</h5>
-          <p class="card-text">This application allows a user to generator a random password. When the application is
-            launched it alerts the user with multiple prompts to outline the criteria of the password. Users are
-            initially prompted with the length of the password, then they are prompted with specific characters they
-            would like in the password (lowercase, uppercase, numbers, and special characters).</p>
-          <a href="https://mahoward2s.github.io/Password-Generator/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/mahoward2s/Password-Generator" class="btn btn-info">Github</a>
-        </div>
-      </div>
-    </div>
-
-    <!--_________________________________________________________WEBSITES___________________________-->
-    <div class="row justify-content-center">
-      <h1 class="display-4">Websites</h1>
-    </div>
-
-    <!--Code Refractor-->
-    <div class="row justify-content-center">
-      <div class="card text-center mb-3" style="width: 40rem;">
-        <img src="./assets/images/Horiseon Social Solutions.gif" class="card-img-top" alt="Usage of Code Refractor GIF">
-        <div class="card-body">
-          <h5 class="card-title">Code Refractor</h5>
-          <p class="card-text">This project a client came to me with a website design. I had to connect the images and
-            fix the layout of the website. I linked the navbar with the appropriate section in the website. </p>
-          <a href="https://mahoward2s.github.io/Code-Refractor/" class="btn btn-primary">Launch</a>
-          <a href="https://github.com/mahoward2s/Code-Refractor" class="btn btn-info">Github</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Start Footer -->
-  <nav class="navbar fixed-bottom-sm footer justify-content-center bg-dark" id="Footer">
-    <div class="footer-text">Website By: Mahoward2s</div>
-  </nav>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
 
 
