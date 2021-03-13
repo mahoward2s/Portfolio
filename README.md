@@ -14,7 +14,7 @@
 - [Questions](#questions)
 
 ## What To Expect:
-![Portfolio](./assets/images/Home.gif)
+![Portfolio](./assets/images/HomeScreen.PNG)
 
 ## Description:
 - A professional portfolio highlighting different projects completed by myself and collaborators.  
